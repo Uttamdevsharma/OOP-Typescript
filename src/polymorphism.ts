@@ -1,5 +1,8 @@
+// Polymorphism হল OOP-এর একটি pillar যেখানে একই method name ভিন্ন class/object-এ ভিন্ন আচরণ করে। এটি মূলত method overriding-এর মাধ্যমে achieve করা হয়।
+
 
 class Person {
+
     getSleep(){
         console.log("I am normal person, i sleep in 8 hour")
     }
