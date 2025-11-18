@@ -26,7 +26,7 @@
 // instance1.play()
 
 
-
+//idea 
 abstract class MediaPlayer {
     abstract play() :void;
     abstract pause() :void;
@@ -37,6 +37,9 @@ abstract class MediaPlayer {
     }
 }
 
+
+
+//implementation
 class MusicPlayer extends MediaPlayer {
     play(): void {
         console.log("Music playing...")
